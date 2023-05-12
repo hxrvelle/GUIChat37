@@ -57,6 +57,7 @@ public class HelloController {
                 }
                 out.flush();
                 file = null;
+                messageTextField.clear();
             } else {
                 String message = messageTextField.getText();
                 System.out.println(message);
